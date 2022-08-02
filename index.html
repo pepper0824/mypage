@@ -1,0 +1,88 @@
+<html>
+
+<head>
+	<!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+
+    우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+    <style>
+                @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+}
+        body{
+            background-color: yellow;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+
+            border: 2px solid white;
+
+            background-image: url('pepper.png');
+            background-position: center;
+            background-size: cover;
+        }
+        .main{
+            color: red;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color: red;
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        .wrap{
+
+            width: 300px;
+            margin: 30px auto 30px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+            .wrap > a{
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 10px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: tomato;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration-line: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: yellowgreen ; 
+            }
+    </style>
+</head>
+<body> 
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">르탄이</h1>
+        <p class="sub">코딩..좋아하세요?</p>
+        <a target="_blank" href="https://spartacodingclub.kr/">인스타그램</a>
+        <a target="_blank" href="https://hanghae99.spartacodingclub.kr/">벨로그</a>
+        <a target="_blank" href="https://chang.spartacodingclub.kr/">블로그</a>
+        <a target="_blank" href="https://ddingdong.spartacodingclub.kr/">띵동코딩</a>
+    </div>
+</body>
+
+</html>
